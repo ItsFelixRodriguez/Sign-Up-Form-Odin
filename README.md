@@ -25,3 +25,11 @@ Rough Layout:
     -Create Account (submit button)
 
     - "Already have an account? Log in" button.
+
+NEEDS ------------
+
+CUSTOM FONT
+
+BACKGROUND IMAGE
+
+SVG LOGO
