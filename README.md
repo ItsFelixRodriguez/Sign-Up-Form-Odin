@@ -28,6 +28,6 @@ Rough Layout:
 
 NEEDS ------------
 
-CUSTOM FONT
+Company Name and logo onto the background image
 
 SVG LOGO
