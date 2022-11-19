@@ -1,18 +1,16 @@
-
-@font-face {
-    font-family: Ubuntu_Mono;
-    src: url(../UbuntuMono-Regular.ttf);
-}
+@import url('httops://https://fonts.google.com/specimen/Roboto+Mono?category=Serif,Monospace');
 
 
 
-<--body{
+
+body{
     display: flex;
-    flex: auto;
+    flex-direction: row;
     padding: 5em;
 }
 .sizzle {
-
+    display: flex;
+    flex-wrap: wrap-reverse;
 }
 .photo {
 
@@ -42,6 +40,7 @@
 
 .form-row {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     padding: .5em;
+    margin: .5em;
 }
