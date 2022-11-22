@@ -1,46 +1,76 @@
-@import url('httops://https://fonts.google.com/specimen/Roboto+Mono?category=Serif,Monospace');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;600&display=swap');
 
-
-
-
-body{
-    display: flex;
-    flex-direction: row;
-    padding: 5em;
-}
-.sizzle {
-    display: flex;
-    flex-wrap: wrap-reverse;
-}
-.photo {
+*:root{
+    --color: #e6007e;
+    --txt: rgb(235, 182, 38)
 
 }
+
+*{
+    margin: 0px;
+    padding: 0px;  
+    box-sizing: border-box;
+    color: var(--txt);
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;  
+}
+
+.main,
 .logo {
     display: flex;
-    font-size: 40px;
-    font-weight: bolder;
-    margin: 100px;
+    flex-flow: wrap;
 }
 
-.pitch {
-    font-size: 20;
-    font-weight: bold;
-}
+.logo{
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 20vh;
+    gap: 1vw;
+    padding: 15px 0;
 
-.credit {
-
-}
-
-.wrapper {
-    background-color: blanchedalmond;
-    list-style-type: none;
-    padding: 0px;
-    border-radius: 3px;
-} 
-
-.form-row {
-    display: flex;
     justify-content: center;
-    padding: .5em;
-    margin: .5em;
+    align-items: center;
+}
+
+h1{
+    color: aliceblue;
+}
+
+.icon{
+    height: 10vh;
+}
+
+.picture{
+    background-image: url(./background.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat:inherit;
+    width:40vw;
+}
+
+ .credit{
+    display: flex;
+    position:absolute; bottom: 1em;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+/* right side*/
+
+.right {
+    width: 60vw;
+    background-color: rgb(28, 33, 37);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.pitch{
+    padding-left: 3vw;
 }
