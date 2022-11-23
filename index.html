@@ -8,7 +8,8 @@
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-   <div class="main">
+    <main class="container">
+   <div class="left">
     <div class="picture">
         <div class="photo"> 
             <div class="logo">
@@ -27,36 +28,46 @@
         sodales nec nec sem. Sed sit amet nunc et dui bibendum ultrices. Sed ac pretium nisi.
     </p>
     <h4 class="incentive">Good Beans</h4>
-    <form class="signup">
+    <form class="signup" >
         <ul class="wrapper">
             <h4 class="incentive">Join the Good Beans Cartel</h4>
-                <li class="form-row">
+                <div class="form-row">
                     <label for="first_name">First Name:</label>
                     <input type="text" name="first_name" id="first_name">
-
+                </div>
+                <div class="form-row">
                     <label for="last_name">Last Name:</label>
                     <input type="text" name="last_name" id="last_name" required>
-                </li>
-                <li class="form-row">
+                </div>
+                   
+              
+                <div class="form-row">
                     <label for="user_email">Email Address:</label>
                     <input type="email" id="user_email" name="email" placeholder="your@email.com" 
                     required> 
-                    <label for="phone">Phone Number</label>
-                    <input type="tel" id="phone" name="phone"
-                    pattern="[0-3]{3}-[0-9]{3}-[0-9]{4}" required>
-                </li>
-               <li class="form-row">
-                <label for="password">Password</label>
-                <input type="password" id="pass"    name="password" required>
-                <label for="password">Confirm Password</label>
-                <input type="password" id="pass"    name="password" required>
-               </li>
-           <li class="form-row">
+                 </div>
+                 <div class="form-row">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone"
+                        pattern="[0-3]{3}-[0-9]{3}-[0-9]{4}" required>
+                </div>
+                 <div class="form-row">
+                    <label for="password">Password</label>
+                    <input type="password" id="pass"    name="password" required>
+                 </div> 
+                 <div class="form-row">
+                    <label for="password">Confirm Password</label>
+                    <input type="password" id="pass"    name="password" required>
+                 </div>
+            
+                  
+           <div>
            <button type="submit"> Create Account </button>
-           </li>
-    </form>
-    <p class="sign-in">Already have an Account? <button>Sign In</button></p>
+           </div>
+     </form>
+     <footer> <p class="sign-in">Already have an Account? <button>Sign In</button></p></footer>
+
    </div>
-   
+</main>
 </body>
 </html>
